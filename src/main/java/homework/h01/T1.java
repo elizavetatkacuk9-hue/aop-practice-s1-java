@@ -1,5 +1,7 @@
 package homework.h01;
-public class SmallestEvenMultiple {
+
+// https://leetcode.com/problems/smallest-even-multiple/
+public class T1 {
     public int smallestEvenMultiple(int n) {
         if (n % 2 == 0) {
             return n;
@@ -8,6 +10,3 @@ public class SmallestEvenMultiple {
         }
     }
 }
-// base
-// https://leetcode.com/problems/palindrome-number/
-public class T1 {}
