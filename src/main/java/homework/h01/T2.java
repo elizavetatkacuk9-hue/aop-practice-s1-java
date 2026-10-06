@@ -1,13 +1,8 @@
 package homework.h01;
-public class SmallestEvenMultiple {
-    public int smallestEvenMultiple(int n) {
-        if (n % 2 == 0) {
-            return n;
-        } else {
-            return n * 2;
-        }
+
+// https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
+public class T2 {
+    public int countOdds(int low, int high) {
+        return (high + 1) / 2 - low / 2;
     }
 }
-// advanced
-// https://leetcode.com/problems/rectangle-area/
-public class T2 {}
