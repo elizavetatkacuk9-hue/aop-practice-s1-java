@@ -1,8 +1,0 @@
-public class ANumberAfterADoubleReversal {
-    public boolean isSameAfterReversals(int num) {
-        // Число залишається таким самим після двох розвертань тоді й лише тоді,
-        // коли воно дорівнює 0 або не закінчується на 0.
-        return num == 0 || num % 10 != 0;
-    }
-}
-
